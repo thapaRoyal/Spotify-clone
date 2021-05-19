@@ -1,7 +1,7 @@
 import React from "react";
 import "./SidebarOption.css";
 
-function SidebarOptions({ title, Icon }) {
+function SidebarOption({ title, Icon }) {
   return (
     <div className="sidebarOption">
       {Icon && <Icon className="sidebarOption__icon" />}
@@ -10,4 +10,4 @@ function SidebarOptions({ title, Icon }) {
   );
 }
 
-export default SidebarOptions;
+export default SidebarOption;
